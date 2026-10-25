@@ -1,0 +1,9 @@
+#include <iostream>
+#include <string>
+#include <cctype>
+#include <cmath>
+#include <iomanip>
+
+int main() {
+    std::cout << std::fixed << std::setprecision(2) << std::sqrt(2) << '\n';
+}
